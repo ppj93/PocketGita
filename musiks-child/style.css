@@ -1,0 +1,90 @@
+/*
+Theme Name: Musik Child
+Theme URI: http://flatfull.com/wp/musik/
+Template: musiks
+Author: Prateek Grover
+Author URI: http://flatfull.com/
+Description: A responsive music wordpress theme, Manage audio, album, genres, artist and sell the audio files to customer.
+Tags: white,dark,light,fluid-layout,custom-colors,editor-style,featured-images,threaded-comments,translation-ready
+Version: 1.0.1462095426
+Updated: 2016-05-01 09:37:06
+
+*/
+
+#cart, .edd_purchase_submit_wrapper {
+	display: none;
+}
+
+.pctGta-download-mp3 {
+	margin-right: 20px;
+  	vertical-align: middle;
+	font-size: 18px;
+}
+
+/*.pctGtaAlbum-play-button {
+	display:none !important;
+}*/
+
+.pctGtaAlbumThumbnail .item-overlay {
+	display: none !important;
+}
+
+/*@media (min-width: 992px){
+	.pctGtaAudioOptions {
+		display: inline-block;
+		width: 40px !important;
+	}
+}*/
+/*
+@media (max-width: 992px){
+	.pctGta-br-m-l {
+		display: block;
+		margin-left: 100px;
+		background: yellow;
+		color: yellow;
+	}
+}*/
+
+.pctGtaShareAlbumBtn {
+	height: 34px;
+}
+
+.pctGtaShareTrackBtn {
+	height: 25px;
+	padding: 3px !important;
+}
+.pctGta-font-xlarge {
+	font-size: x-large;
+  	vertical-align: middle;
+}
+@media (min-width: 993px) {
+	.pctGtaAudioOptions {
+		display: inline-block;
+		width: 50px;
+	}
+
+	.pctGta-md-m-l {
+		margin-left: 10px;
+	}
+
+}
+
+.pctGta-md-no-left-pad {
+		padding-left: 0px !important;
+}
+
+@media (max-width: 992px){
+
+	.pctGtaAudioOptions {
+		display: inline-block;
+		width: 33.33%;
+		float:left;
+	}
+	.pctGta-audio-title{
+		height: 55px;
+	}
+	.pctGta-sm-line2 {
+		margin-top: 10px;
+	}
+
+}
