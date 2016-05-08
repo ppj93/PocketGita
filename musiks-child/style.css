@@ -111,7 +111,7 @@ Updated: 2016-05-01 09:37:06
 	background: #232c32!important;
 }
 	
-.pctGta-color-fffcee, .jp-gui *, .icon-shuffle, .icon-loop, .jp-title {
+.pctGta-color-fffcee, .jp-gui *, .fa-bars{
 	color: #FFFCEE !important;
 }
 		
@@ -135,4 +135,8 @@ Updated: 2016-05-01 09:37:06
 
 footer .dropdown.dropup.wrapper-sm.clearfix {
 	background:#4cb6cb;
+}
+
+.navbar-brand {
+	height: 64px !important;
 }

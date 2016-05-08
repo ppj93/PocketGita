@@ -20,30 +20,30 @@
               <div class="jp-seek-bar lt">
                 <div class="jp-play-bar dk">
                 </div>
-                <div class="jp-title text-lt">
+				<div class="jp-title text-lt" style="color: #fffcee !important">
                   <ul>
                     <li></li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="hidden-xs hidden-sm jp-current-time text-xs text-muted"></div>
-            <div class="hidden-xs hidden-sm jp-duration text-xs text-muted"></div>
+            <div class="hidden-xs hidden-sm jp-current-time text-xs text-muted" style="color: #fffcee !important"></div>
+            <div class="hidden-xs hidden-sm jp-duration text-xs text-muted" style="color: #fffcee !important"></div>
             <div class="hidden-xs hidden-sm">
               <a class="jp-mute" title="<?php esc_html_e( 'mute', 'musik' ); ?>"><i class="icon-volume-2"></i></a>
               <a class="jp-unmute hid" title="<?php esc_html_e( 'unmute', 'musik' ); ?>"><i class="icon-volume-off"></i></a>
             </div>
             <div class="hidden-xs hidden-sm jp-volume">
-              <div class="jp-volume-bar dk">
-                <div class="jp-volume-bar-value lter"></div>
+              <div class="jp-volume-bar dk" style="color: #fffcee !important">
+                <div class="jp-volume-bar-value lter" style="color: #fffcee !important"></div>
               </div>
             </div>
             <div>
-              <a class="jp-shuffle" title="<?php esc_html_e( 'shuffle', 'musik' ); ?>"><i class="icon-shuffle text-muted"></i></a>
+              <a class="jp-shuffle" ttitle="<?php esc_html_e( 'shuffle', 'musik' ); ?>"><i style="color: #fffcee !important" class="icon-shuffle text-muted"></i></a>
               <a class="jp-shuffle-off hid" title="<?php esc_html_e( 'shuffle off', 'musik' ); ?>"><i class="icon-shuffle text-lt"></i></a>
             </div>
             <div>
-              <a class="jp-repeat" title="<?php _e( 'repeat', 'musik' ); ?>"><i class="icon-loop text-muted"></i></a>
+              <a class="jp-repeat" style="color: #fffcee !important" title="<?php _e( 'repeat', 'musik' ); ?>"><i class="icon-loop text-muted"></i></a>
               <a class="jp-repeat-off hid" title="<?php _e( 'repeat off', 'musik' ); ?>"><i class="icon-loop text-lt"></i></a>
             </div>
             <div class="hide">
