@@ -88,3 +88,18 @@ Updated: 2016-05-01 09:37:06
 	}
 
 }
+
+.pctGta-start-listening {
+	text-transform: uppercase;
+  	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pctGta-start-listening:hover, .pctGta-start-listening-div:hover  {
+	color: #46b6cb !important;
+}
+	  
+.pctGta-start-listening-div, .pctGta-start-listening-div:selected, . pctGta-start-listening-div:active {
+	color: #ffffff !important;
+}
+
+

@@ -6,14 +6,6 @@
 get_header(); ?>
 
 
-<!--<?php //putRevSlider("slider1") ?>-->
-
-<?php
-/**
- * Template Name: Albums
-*/
-
-get_header(); ?>
 <section class="w-f-md">
     <section class="hbox stretch">
         <section>
@@ -33,6 +25,8 @@ get_header(); ?>
         </section>
     </section>
 </section>
+
+
 <?php get_template_part( 'template-parts/player' ); ?>
 <?php get_footer( );  ?>
 
