@@ -38,3 +38,13 @@ function pctGtaAddShareWidget($filePath, $cssBtnClasses) {
 
 }
 // END ENQUEUE PARENT ACTION
+
+
+function pctGtaSliderListenNowWidget($audioId) {
+	$template = ' <a href="javascript:;" data-id="%s" class="play-me i-lg">             
+<span class="pctGta-start-listening">start listening</span>
+    <span class="fa fa-play text" style="color: white"></span>
+	<i class="fa fa-pause text-active"  style="color: #46b6cb"></i>
+</a>';
+  	echo sprintf($template, $audioId);
+}
