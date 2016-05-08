@@ -103,3 +103,36 @@ Updated: 2016-05-01 09:37:06
 }
 
 
+.pctGta-0-pad {
+	padding-top: 0px !important;
+}
+
+.pctGta-color-background-232c32 {
+	background: #232c32!important;
+}
+	
+.pctGta-color-fffcee, .jp-gui *, .icon-shuffle, .icon-loop, .jp-title {
+	color: #FFFCEE !important;
+}
+		
+
+	/* do not group these rules */
+.pctGta-search *::-webkit-input-placeholder {
+    color: #FFFCEE !important;
+}
+.pctGta-search *:-moz-placeholder {
+    /* FF 4-18 */
+    color: #FFFCEE !important;
+}
+.pctGta-search *::-moz-placeholder {
+    /* FF 19+ */
+    color: #FFFCEE !important;
+}
+.pctGta-search *:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #FFFCEE !important;
+}
+
+footer .dropdown.dropup.wrapper-sm.clearfix {
+	background:#4cb6cb;
+}

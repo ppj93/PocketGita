@@ -10,11 +10,12 @@ get_header(); ?>
     <section class="hbox stretch">
         <section>
             <section class="vbox">
-                <section class="scrollable wrapper-lg">
-	                <?php dynamic_sidebar( 'home-header' ); ?>
-				  	
+                <section class="scrollable wrapper-lg pctGta-0-pad">
+	                <!--<?php dynamic_sidebar( 'home-header' ); ?>-->
+				 
+				  <div style="margin-top: 0px">
 				  <?php putRevSlider("slider1") ?>
-
+				  </div>
 
                     <div class="row">
                     	<div class="col-md-4">
