@@ -11,6 +11,8 @@ Updated: 2016-05-01 09:37:06
 
 */
 
+@import url(https://fonts.googleapis.com/css?family=Arya:700&subset=devanagari);
+
 #cart, .edd_purchase_submit_wrapper {
 	display: none;
 }
@@ -87,18 +89,32 @@ Updated: 2016-05-01 09:37:06
 		margin-top: 10px;
 	}
 
+	/*.pctGta-slider-track-title {
+		display: inline-block;
+  		width: 50px;
+  		margin-left: auto;
+	  	margin-right: auto;
+  		overflow: wrap;
+	}*/
+
 }
 
 .pctGta-start-listening {
   	color: #ffffff;
 	text-transform: uppercase;
-  	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Arya', sans-serif;
+}
+  
+.pctGta-slider-track-title {
+  color: #ffffff;				
+font-family: 'Arya', sans-serif;	
 }
 
 .pctGta-start-listening:hover, .pctGta-start-listening .icon-control-play:hover, .pctGta-start-listening .icon-control-pause:hover  {
 	color: #46b6cb !important;
   	cursor: pointer;
 }
+
 .pctGta-start-listening .icon-control-play, .pctGta-start-listening .icon-control-pause {
 	color: white !important;
 } 
