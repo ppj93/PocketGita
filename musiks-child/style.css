@@ -19,8 +19,6 @@ Updated: 2016-05-01 09:37:06
 
 .pctGta-download-mp3 {
 	margin-right: 20px;
-  	vertical-align: middle;
-	font-size: 18px;
 }
 
 /*.pctGtaAlbum-play-button {
@@ -47,13 +45,23 @@ Updated: 2016-05-01 09:37:06
 	}
 }*/
 
+.pctGtaAudioOptions {
+	vertical-align: middle;
+	/*font-size: 15px;*/
+ }
 .pctGtaShareAlbumBtn {
+  	margin-left: 20px;
+	font-size: 28px;
+	vertical-align:middle;
 	height: 34px;
 }
 
 .pctGtaShareTrackBtn {
-	height: 25px;
-	padding: 3px !important;
+	vertical-align:middle;
+}
+
+.pctGtaShareTrackBtn:hover, .pctGtaShareAlbumBtn:hover {
+	color: #46b6cb;
 }
 .pctGta-font-xlarge {
 	font-size: x-large;
@@ -79,7 +87,7 @@ Updated: 2016-05-01 09:37:06
 
 	.pctGtaAudioOptions {
 		display: inline-block;
-		width: 33.33%;
+		width: 25%;
 		float:left;
 	}
 	.pctGta-audio-title{

@@ -61,7 +61,7 @@
 
 	    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 		<span class="pctGtaAudioOptions" style="vertical-align: middle !important"><span class="icon-docs">				</span></span> </a>
-		<span class="pctGtaAudioOptions pctGta-sm-line2"><?php pctGtaAddShareWidget($post->ID, "pctGtaShareTrackBtn"); ?></span>
+		<span><?php pctGtaAddShareWidget(get_permalink($post->ID), "pctGtaShareTrackBtn pctGtaAudioOptions"); ?></span>
 
 		 
 		

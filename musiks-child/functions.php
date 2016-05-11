@@ -23,19 +23,9 @@ function pctGtaAddShareWidget($filePath, $cssBtnClasses) {
 	$pctGtaGoogleShareLink = sprintf($pctGtaGoogleShareBase, get_permalink($post->ID));	
 	$pctGtaTwitterShareBase = "https://twitter.com/home?status=%s";
 	$pctGtaTwitterShareLink = sprintf($pctGtaTwitterShareBase, get_permalink($post->ID));
-	
-	$pctGtaLinksTemplate = '<span class="dropdown">
-		  <button class="btn btn-default btn-sm dropdown-toggle %s" type="button" data-toggle="dropdown"> Share <span class="caret"></span>
-		  </button>
-		  <ul class="dropdown-menu">
-			<li><a href="%s" target="_blank"  title="Share on Facebook" style="target-new: tab;">Facebook</a></li>
-			<li><a href="%s" target="_blank"  title="Share on Twitter" style="target-new: tab;">Twitter</a></li>
-			<li><a href="%s" target="_blank"  title="Share on Google+" style="target-new: tab;">Google+</a></li>
-		  </ul>
-		</span>';
-	
-	echo sprintf($pctGtaLinksTemplate, $cssBtnClasses, $pctGtaFBShareLink, $pctGtaTwitterShareLink, $pctGtaGoogleShareLink);	
-
+  
+  $pctGtaFBShare = '<a href="%s" class="%s" target="_blank"  title="Share on Facebook"><span class="fa fa-facebook"></span></a>';
+	echo sprintf($pctGtaFBShare, $pctGtaFBShareLink, $cssBtnClasses);
 }
 // END ENQUEUE PARENT ACTION
 
