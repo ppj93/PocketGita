@@ -13,6 +13,9 @@ Updated: 2016-05-01 09:37:06
 
 @import url(https://fonts.googleapis.com/css?family=Arya:700&subset=devanagari);
 
+/*body, p {
+	font-family: 'Arya', sans-serif !important;
+}*/
 #cart, .edd_purchase_submit_wrapper {
 	display: none;
 }
@@ -25,9 +28,14 @@ Updated: 2016-05-01 09:37:06
 	display:none !important;
 }*/
 
-.pctGtaAlbumThumbnail .item-overlay {
+.pctGtaAlbumThumbnail .item-overlay, .pctGta-home-section2 .item-overlay {
 	display: none !important;
 }
+
+	  /*
+:not(.pull-left.m-r).pos-rlt .item-overlay.opacity.r.bg-black{
+	display: none !important;
+}*/
 
 /*@media (min-width: 992px){
 	.pctGtaAudioOptions {
@@ -112,10 +120,10 @@ Updated: 2016-05-01 09:37:06
 	text-transform: uppercase;
 	font-family: 'Arya', sans-serif;
 }
-  
+
 .pctGta-slider-track-title {
-  color: #ffffff;				
-font-family: 'Arya', sans-serif;	
+  color: #ffffff;
+font-family: 'Arya', sans-serif;
 }
 
 .pctGta-start-listening:hover, .pctGta-start-listening .icon-control-play:hover, .pctGta-start-listening .icon-control-pause:hover  {
@@ -125,9 +133,9 @@ font-family: 'Arya', sans-serif;
 
 .pctGta-start-listening .icon-control-play, .pctGta-start-listening .icon-control-pause {
 	color: white !important;
-} 
+}
 
-	  
+
 /*
 .pctGta-start-listening-div, .pctGta-start-listening-div:selected, . pctGta-start-listening-div:active {
 	color: #ffffff !important;
@@ -141,11 +149,11 @@ font-family: 'Arya', sans-serif;
 .pctGta-color-background-232c32 {
 	background: #232c32!important;
 }
-	
+
 .pctGta-color-fffcee, .jp-gui *, .fa-bars{
 	color: #FFFCEE !important;
 }
-		
+
 
 	/* do not group these rules */
 .pctGta-search *::-webkit-input-placeholder {
@@ -170,4 +178,20 @@ footer .dropdown.dropup.wrapper-sm.clearfix {
 
 .navbar-brand {
 	height: 64px !important;
+}
+
+.pctGta-display-inline {
+	display: inline;
+}
+
+.pctGta-display-none {
+	display: none;
+}
+
+.pctGta-display-inline-block{
+	display: inline-block;
+}
+
+.pctGta-album-controls  {
+	vertical-align: super;
 }

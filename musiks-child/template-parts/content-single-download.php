@@ -25,8 +25,10 @@
 								<?php endif ?>
 							</div>
 							<div class="col-sm-9">
-								<?php the_title( '<h1 class="m-t-xs m-b-sm entry-title text-black"><span itemprop="name">', '</span></h1>' ); ?>
-								<div class="entry-meta clearfix m-b-lg">
+							  
+							  
+								<?php the_title( '<h1 class="m-t-xs m-b-sm entry-title text-black pctGta-display-inline-block" ><span itemprop="name">', '</span></h1>' ); ?>
+								<div class="entry-meta clearfix m-b-lg pctGta-display-none">
 								  <?php
 								        echo get_the_term_list( $post->ID, 'download_artist', '<span class="m-r">'.esc_html__( 'Artist', 'music' ).': ', ', ' , '</span>'); 
 								        $year = get_post_meta( get_the_ID(), 'year', true );
@@ -36,7 +38,7 @@
 								        echo get_the_term_list( $post->ID, 'download_category', '<span class="m-r">'.__( 'in', 'music' ).': ', ', ' , '</span>'); 
 								    ?>
 								</div>
-								<div class="m-b-lg">
+							  <div class="m-b-lg <?php if(!empty($list)){echo 'pctGta-display-inline pctGta-album-controls pctGta-md-m-l';}?>">
 								  <a href="javascript:;" data-id="<?php echo $post->ID; ?>" class="pctGtaAlbum-play-button play-me btn btn-default btn-icon">
 								    <i class="fa fa-play text"></i>
 								    <i class="fa fa-pause text-active"></i>
@@ -83,18 +85,23 @@
 								pctGtaAddShareWidget(get_permalink( $post->ID ), 'pctGtaShareAlbumBtn');
 								  ?>
 								</div>
-								<?php $hide_btn = get_post_meta( get_the_ID(), '_edd_hide_purchase_link', true ); if($hide_btn !== 'on'){ ?>
-									<div class="m-b-lg">
-										<?php  echo do_shortcode('[purchase_link id="'.$post->ID.'" text="Add to Cart" style="btn btn-info"]') ?>
-									</div>
-								<?php } ?>
+								
+							  
+							  <?php if(!empty($list)): ?>
+							  <div class="m-t">
+								<?php the_content(); ?>
+								<?php echo get_the_term_list( $post->ID, 'download_tag', '<div><span class="badge bg-info text-u-c">'.esc_html__( 'Tag', 'music' ).'</span> ', ', ' , '</div>'); ?>
+							  </div>
+							  <?php endif; ?>
 							</div>
 					    </div>
 					</div>
-					<div class="m-t">
-						<?php the_content(); ?>
-						<?php echo get_the_term_list( $post->ID, 'download_tag', '<div><span class="badge bg-info text-u-c">'.esc_html__( 'Tag', 'music' ).'</span> ', ', ' , '</div>'); ?>
-					</div>
+				  	<?php if(empty($list)): ?>
+							  <div class="m-t">
+								<?php the_content(); ?>
+								<?php echo get_the_term_list( $post->ID, 'download_tag', '<div><span class="badge bg-info text-u-c">'.esc_html__( 'Tag', 'music' ).'</span> ', ', ' , '</div>'); ?>
+							  </div>
+				  	<?php endif; ?>
 				</div>
 		        <?php
 			

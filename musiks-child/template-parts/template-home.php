@@ -29,7 +29,7 @@ get_header(); ?>
                             <?php dynamic_sidebar( 'home-col-3' ); ?>
                         </div>
                     </div>
-                    <?php dynamic_sidebar( 'home-body' ); ?>
+				  <div class="pctGta-home-section2"><?php dynamic_sidebar( 'home-body'); ?></div>
                     <div class="row">
                         <div class="col-md-6">
                             <?php dynamic_sidebar( 'home-col-4' ); ?>
