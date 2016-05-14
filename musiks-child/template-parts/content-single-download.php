@@ -27,7 +27,7 @@
 							<div class="col-sm-9">
 							  
 							  
-								<?php the_title( '<h1 class="m-t-xs m-b-sm entry-title text-black pctGta-display-inline-block" ><span itemprop="name">', '</span></h1>' ); ?>
+								<?php the_title( '<h1 class="m-t-xs m-b-sm entry-title text-black pctGta-title-font pctGta-display-inline-block" ><span itemprop="name">', '</span></h1>' ); ?>
 								<div class="entry-meta clearfix m-b-lg pctGta-display-none">
 								  <?php
 								        echo get_the_term_list( $post->ID, 'download_artist', '<span class="m-r">'.esc_html__( 'Artist', 'music' ).': ', ', ' , '</span>'); 
@@ -97,7 +97,7 @@
 					    </div>
 					</div>
 				  	<?php if(empty($list)): ?>
-							  <div class="m-t">
+							  <div class="m-t pctGta-transcription">
 								<?php the_content(); ?>
 								<?php echo get_the_term_list( $post->ID, 'download_tag', '<div><span class="badge bg-info text-u-c">'.esc_html__( 'Tag', 'music' ).'</span> ', ', ' , '</div>'); ?>
 							  </div>

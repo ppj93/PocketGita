@@ -12,10 +12,9 @@ Updated: 2016-05-01 09:37:06
 */
 
 @import url(https://fonts.googleapis.com/css?family=Arya:700&subset=devanagari);
+@import url(https://fonts.googleapis.com/css?family=Vesper+Libre&subset=devanagari,latin);
 
-/*body, p {
-	font-family: 'Arya', sans-serif !important;
-}*/
+
 #cart, .edd_purchase_submit_wrapper {
 	display: none;
 }
@@ -194,4 +193,13 @@ footer .dropdown.dropup.wrapper-sm.clearfix {
 
 .pctGta-album-controls  {
 	vertical-align: super;
+}
+
+body, p, h1, h4, h3, .pctGta-title-font {
+	font-family: 'Arya', serif !important;
+}
+
+
+.pctGta-transcription {
+ 	font-family: 'Vesper Libre', serif;
 }
