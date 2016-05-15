@@ -9,7 +9,7 @@ get_header(); ?>
 <section class="w-f-md">
     <section class="hbox stretch">
         <section>
-            <section class="vbox">
+            <section class="vbox pctGta-title-font">
                 <section class="scrollable wrapper-lg pctGta-0-pad">
 	                <!--<?php dynamic_sidebar( 'home-header' ); ?>-->
 				 

@@ -88,7 +88,7 @@
 								
 							  
 							  <?php if(!empty($list)): ?>
-							  <div class="m-t">
+							  <div class="m-t pctGta-transcription-font">
 								<?php the_content(); ?>
 								<?php echo get_the_term_list( $post->ID, 'download_tag', '<div><span class="badge bg-info text-u-c">'.esc_html__( 'Tag', 'music' ).'</span> ', ', ' , '</div>'); ?>
 							  </div>
@@ -97,7 +97,7 @@
 					    </div>
 					</div>
 				  	<?php if(empty($list)): ?>
-							  <div class="m-t pctGta-transcription">
+							  <div class="m-t pctGta-transcription-font">
 								<?php the_content(); ?>
 								<?php echo get_the_term_list( $post->ID, 'download_tag', '<div><span class="badge bg-info text-u-c">'.esc_html__( 'Tag', 'music' ).'</span> ', ', ' , '</div>'); ?>
 							  </div>

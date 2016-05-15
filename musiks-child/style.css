@@ -195,11 +195,23 @@ footer .dropdown.dropup.wrapper-sm.clearfix {
 	vertical-align: super;
 }
 
-body, p, h1, h4, h3, .pctGta-title-font {
+
+#menu-about-site>.hidden-nav-xs {
+	display: none;
+}
+
+#pctGta-about-text{
+	color: #788188;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.4;
+}
+/*h1, h4, h3, .pctGta-title-font {
 	font-family: 'Arya', serif !important;
 }
 
 
-.pctGta-transcription {
+.pctGta-transcription-font {
  	font-family: 'Vesper Libre', serif;
-}
+}*/
+

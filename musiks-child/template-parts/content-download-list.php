@@ -24,7 +24,7 @@
 	</div>
 
 	<div class="clear pctGta-audio-title">
-	    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" class="font-bold m-b-xs"><?php the_title(); ?></a>
+	    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" class="font-bold m-b-xs pctGta-title-font"><?php the_title(); ?></a>
 	    <?php
 	        $artist = get_the_term_list( $post->ID, 'download_artist', '', ', ', '' );
 	        if (!is_wp_error( $artist ) && '' != $artist ) {
