@@ -1,1 +1,37 @@
 Feel free to contact us for any of your queries / doubts related to subject matter discussed in the audios of this website. Once you fill the below form, one of our above volunteers will get in touch with you over phone or email as per your preference.
+
+<p>आपका नाम (Your Name) आवश्यक (required)<br />
+    [text* your-name] </p>
+
+<p>आपका ईमेल (Your Email) आवश्यक (required)<br />
+    [email* your-email] </p>
+
+<p>विषय (Subject)<br />
+    [text your-subject] </p>
+
+<p>आपका संदेश (Your Message)<br />
+    [textarea your-message] </p>
+
+<p>[submit "भेजें (Send)"]</p>
+
+
+
+
+<style>
+.pctGta-thumb-xlg {
+    width: 150px;
+    height: 150px;
+}
+
+.pctGta-center-content {
+    text-align: center;
+}
+</style>
+<div class="col-md-4 pctGta-center-content">
+    <div class="pctGta-thumb-xlg" style="margin-left: auto; margin-right: auto">
+    <img src="http://pocketgita.com/wp-content/uploads/2016/05/roshan-kumar.jpg" class="img-circle" style="height: inherit; width: inherit"/>
+    
+    <h3>Roshan Kumar</h3><span class="text-muted"><i class="fa fa-map-marker"></i> Hyderabad, India</span>
+    </div>
+</div>
+<!--[contact-form-7 id="1006" title="Contact form 1"]-->
