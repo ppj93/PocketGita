@@ -60,7 +60,7 @@
 	            <span class="input-group-btn">
 	              <button type="submit" class="btn btn-sm bg-white btn-icon pctGta-color-fffcee pctGta-color-background-232c32"><i class="fa fa-search"></i></button>
 	            </span>
-	            <input type="text" value="<?php the_search_query(); ?>" class="form-control no-border pctGta-color-background-232c32	" name="s" placeholder="<?php _e('Search songs, albums...', 'musik'); ?>">
+				<input type="text" value="<?php the_search_query(); ?>" style="color:white" class="form-control no-border pctGta-color-background-232c32" name="s" placeholder="<?php _e('Search songs, albums...', 'musik'); ?>">
 	          </div>
 	        </div>
 	      </form>

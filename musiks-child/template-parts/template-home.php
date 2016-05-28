@@ -38,13 +38,13 @@ get_header(); ?>
                             <?php dynamic_sidebar( 'home-col-5' ); ?>
                         </div>
                     </div>
+				  
                     <?php dynamic_sidebar( 'home-footer' ); ?>
                 </section>
             </section>
         </section>
     </section>
 </section>
-
 
 <?php get_template_part( 'template-parts/player' ); ?>
 <?php get_footer( );  ?>

@@ -236,7 +236,7 @@ h1, h4, h3, .pctGta-title-font {
 
 .pctGta-transcription-font {
  	/*font-family: 'Vesper Libre', serif, sans-serif;*/
-  font-family: "Arya", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Vesper Libre", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .pctGta-about-text{
@@ -253,3 +253,16 @@ h1, h4, h3, .pctGta-title-font {
     line-height: 1.4;
 }
 
+.pctGta-home-footer {
+	float: right;
+}
+
+.pctGta-margin-bottom-12px {
+	  margin-bottom:12px;
+}
+
+.pctGta-margin-bottom-10px {
+	  margin-bottom:10px;
+}
+
+	
